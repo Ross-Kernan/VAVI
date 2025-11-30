@@ -5,7 +5,6 @@ import pyttsx3 # https://pyttsx3.readthedocs.io/en/latest/
 
 class TextToSpeech:
     def __init__(self):
-        """Initialize the TTS engine"""
         self.engine = pyttsx3.init()
         
         # Configure voice speed and volume
@@ -23,7 +22,6 @@ class TextToSpeech:
         self.engine.stop()
     
     def stop(self):
-        """Stop current speech"""
         self.engine.stop()
 
 
