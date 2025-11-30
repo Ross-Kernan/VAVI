@@ -4,7 +4,7 @@ import keyboard
 
 from vosk import Model, KaldiRecognizer
 
-MODEL_PATH = "vosk-model-small-en-us-0.15"  # Change this if needed
+MODEL_PATH = "vosk-model-small-en-us-0.15"  # Change if needed
 
 # Load the model
 print("Loading")
